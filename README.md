@@ -6,13 +6,14 @@ I used SASS, Compass, Susy, and Breakpoint for the first time ever. I wanted to 
 
 I first tried using Foundation but I couldn't stand how bloated it feeled. I didn't like all the extras even though I could choose which modules to use. It didn't sit well with me.
 
-# Tell me what you think
+Tell me what you think
+----------------------------
 
 I put my portfolio on here for that exact reason. I want to hear what you think about my code, design, or anything else.
 
 Tell me what you like. If you dislike something, let me know what it is and what you think I should do instead. I'm really eager to hear constructive criticism so I can improve.
 
-# In the near future
+## In the near future
 
 Some things that I have yet to do
 * Finish adding images for current projects, e.g., instaGC & airo
