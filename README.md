@@ -13,7 +13,7 @@ I put my portfolio on here for that exact reason. I want to hear what you think 
 
 Tell me what you like. If you dislike something, let me know what it is and what you think I should do instead. I'm really eager to hear constructive criticism so I can improve.
 
-## In the near future
+### In the near future
 
 Some things that I have yet to do
 * Finish adding images for current projects, e.g., instaGC & airo
