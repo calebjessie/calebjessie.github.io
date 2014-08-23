@@ -1,0 +1,85 @@
+@import "compass/css3", "compass/reset", "compass/typography/vertical_rhythm", "susy", "type";
+
+// Susy grid
+$susy: (
+	columns: 4,
+	column-width: 60px,
+	gutters: 20px/60px,
+	gutter-position: after,
+	output: isolate,
+	math: static,
+);
+
+// Breakpoint variables
+$monitor: 1280px;
+$desktop: 960px;
+$desktop-b: max-width 960px;
+$tablet: 640px;
+$mobile-b: max-width 640px;
+
+// Vertical Rhythm
+@include establish-baseline;
+$base-font-size: 16px;
+$base-line-height: 20px;
+
+// Colors
+$primaryColor: #41707f;
+$secondaryColor: #cee0e6;
+$highlightColor: #2980b9;
+$bodyColor: #3c494d;
+$projectLight: #94a4a9;
+
+// Global styles
+body {
+	font-family: "Open Sans Regular" sans-serif;
+	color: $bodyColor;
+}
+
+h1, h2, h3 {
+	color: $primaryColor;
+}
+h1 {
+	@include adjust-font-size-to(48px);
+	font-family: "Roboto Light";
+}
+h2 {
+	@include adjust-font-size-to(30px);
+	font-family: "Roboto Bold";
+}
+h3 {
+	//@include adjust-font-size-to(16px);
+	font-family: "Roboto Bold";
+}
+a {
+	@include single-transition(color, .5s, ease);
+	text-decoration: none;
+	color: $highlightColor;
+
+
+	&:hover {
+		color: #fff;
+	}
+}
+.link-hover {
+	@include single-transition(background, .5s, ease);
+
+	&:hover {
+		background: $highlightColor;
+	}
+}
+
+// Button style
+.button {
+	@include border-radius(3px);
+	@include box-shadow(0px 1px 2px hsla(0, 0%, 0%, 0.5));
+	@include single-transition(opacity, .5s, ease);
+	font-size: 1rem;
+	padding: 8px 18px;
+	margin-top: 15px;
+	line-height: 20px;
+	opacity: .8;
+
+	&:hover {
+		opacity: 1;
+	}
+}
