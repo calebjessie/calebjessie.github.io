@@ -8,6 +8,7 @@ $susy: (
 	gutter-position: after,
 	output: isolate,
 	math: static,
+	container: auto,
 );
 
 // Breakpoint variables
@@ -28,6 +29,11 @@ $secondaryColor: #cee0e6;
 $highlightColor: #2980b9;
 $bodyColor: #3c494d;
 $projectLight: #94a4a9;
+
+// Put in layout file when it's created for SMACSS
+@-ms-viewport {
+	width: device-width;
+}
 
 // Global styles
 body {

@@ -87,37 +87,40 @@ html {
   line-height: 1.5em;
 }
 
-/* line 33, ../sass/partials/_global.scss */
+@-ms-viewport {
+  width: device-width;
+}
+/* line 39, ../sass/partials/_global.scss */
 body {
   font-family: "Open Sans Regular" sans-serif;
   color: #3c494d;
 }
 
-/* line 38, ../sass/partials/_global.scss */
+/* line 44, ../sass/partials/_global.scss */
 h1, h2, h3 {
   color: #41707f;
 }
 
-/* line 41, ../sass/partials/_global.scss */
+/* line 47, ../sass/partials/_global.scss */
 h1 {
   font-size: 3em;
   line-height: 1.25em;
   font-family: "Roboto Light";
 }
 
-/* line 45, ../sass/partials/_global.scss */
+/* line 51, ../sass/partials/_global.scss */
 h2 {
   font-size: 1.875em;
   line-height: 1.33333em;
   font-family: "Roboto Bold";
 }
 
-/* line 49, ../sass/partials/_global.scss */
+/* line 55, ../sass/partials/_global.scss */
 h3 {
   font-family: "Roboto Bold";
 }
 
-/* line 53, ../sass/partials/_global.scss */
+/* line 59, ../sass/partials/_global.scss */
 a {
   -moz-transition: color 0.5s ease;
   -o-transition: color 0.5s ease;
@@ -126,24 +129,24 @@ a {
   text-decoration: none;
   color: #2980b9;
 }
-/* line 59, ../sass/partials/_global.scss */
+/* line 65, ../sass/partials/_global.scss */
 a:hover {
   color: #fff;
 }
 
-/* line 63, ../sass/partials/_global.scss */
+/* line 69, ../sass/partials/_global.scss */
 .link-hover {
   -moz-transition: background 0.5s ease;
   -o-transition: background 0.5s ease;
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
 }
-/* line 66, ../sass/partials/_global.scss */
+/* line 72, ../sass/partials/_global.scss */
 .link-hover:hover {
   background: #2980b9;
 }
 
-/* line 72, ../sass/partials/_global.scss */
+/* line 78, ../sass/partials/_global.scss */
 .button, .header-wrapper header nav .header-button {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -161,7 +164,7 @@ a:hover {
   line-height: 20px;
   opacity: .8;
 }
-/* line 82, ../sass/partials/_global.scss */
+/* line 88, ../sass/partials/_global.scss */
 .button:hover, .header-wrapper header nav .header-button:hover {
   opacity: 1;
 }
