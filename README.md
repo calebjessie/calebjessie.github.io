@@ -18,7 +18,6 @@ In the near future
 
 Some things that I have yet to do
 * Finish adding images for current projects, e.g., instaGC & airo
-* Add the redesign of instaGC as a concept since it was never implimented?
 * Add a third project if possible
 * Rewrite about me copy
 * Add Github icon into social links
