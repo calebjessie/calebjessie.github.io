@@ -1,4 +1,4 @@
-@import "compass/css3", "susy", "breakpoint", "partials/logo", "partials/global";
+@import  "breakpoint", "partials/logo", "partials/global";
 
 .header-wrapper {
 	height: 64px;
@@ -86,7 +86,7 @@
 	}
 	h3 {
 		margin: rhythm(3, 14px) 0 rhythm(2, 14px);
-		padding: rhythm(.2, 16px) rhythm(1, 16px);
+		padding: rhythm(.1, 16px) rhythm(.8, 16px);
 	}
 }
 // Greeting background

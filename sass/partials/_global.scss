@@ -35,9 +35,9 @@ $projectLight: #94a4a9;
 	width: device-width;
 }
 
-// Global styles
+// Base styles
 body {
-	font-family: "Open Sans Regular" sans-serif;
+	font-family: "Open Sans Regular";
 	color: $bodyColor;
 }
 
@@ -53,7 +53,7 @@ h2 {
 	font-family: "Roboto Bold";
 }
 h3 {
-	//@include adjust-font-size-to(16px);
+	@include adjust-font-size-to(18px);
 	font-family: "Roboto Bold";
 }
 a {
@@ -66,6 +66,8 @@ a {
 		color: #fff;
 	}
 }
+
+// Change state style
 .link-hover {
 	@include single-transition(background, .5s, ease);
 
