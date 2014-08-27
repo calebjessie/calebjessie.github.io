@@ -22,5 +22,6 @@ Some things that I have yet to do
 * Rewrite about me copy
 * Add Github icon into social links
 * Add a new section that better highlights what I have to offer
+* Fix responsive images using Picture Fill
 * Create blog page and start writing
 * Adopting a better file structure for CSS; e.g., SMACSS, Pattern lab
