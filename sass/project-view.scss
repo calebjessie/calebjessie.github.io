@@ -16,9 +16,6 @@ body {
 		@include breakpoint($desktop) {
 			@include container(12);
 		}
-		@include breakpoint($monitor) {
-			@include container(16);
-		}
 
 		nav {
 			float: right;
@@ -82,9 +79,6 @@ main {
 	@include breakpoint($desktop) {
 		@include container(12);
 	}
-	@include breakpoint($monitor) {
-		@include container(16);
-	}
 }
 
 // Project details
@@ -94,9 +88,6 @@ main {
 	}
 	@include breakpoint($desktop) {
 		@include span(12);
-	}
-	@include breakpoint($monitor) {
-		@include span(16);
 	}
 	margin-top: rhythm(2, 16px);
 }
@@ -123,9 +114,6 @@ main {
 	@include breakpoint($desktop) {
 		@include span(6 at 4);
 	}
-	@include breakpoint($monitor) {
-		@include span(6 at 6);
-	}
 	@include trailing-border(1px, .5);
 	border-color: #505c5f;
 	padding-bottom: rhythm(2, 16px);
@@ -138,9 +126,6 @@ main {
 	}
 	@include breakpoint($desktop) {
 		@include span(12);
-	}
-	@include breakpoint($monitor) {
-		@include span(16);
 	}
 
 	img {
@@ -157,9 +142,6 @@ main {
 	@include breakpoint($desktop) {
 		@include span(12);
 	}
-	@include breakpoint($monitor) {
-		@include span(16);
-	}
 }
 .ios-screens img {
 	@include breakpoint($tablet) {
@@ -167,9 +149,6 @@ main {
 	}
 	@include breakpoint($desktop) {
 		@include gallery(6 of 12);
-	}
-	@include breakpoint($monitor) {
-		@include gallery(8 of 16);
 	}
 }
 
@@ -187,9 +166,6 @@ footer {
 		.copyright {
 			float: right;
 		}
-	}
-	@include breakpoint($monitor) {
-		@include span(16);
 	}
 	@include leading-border(1px, .5);
 	border-color: #505c5f;
